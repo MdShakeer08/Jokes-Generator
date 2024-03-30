@@ -1,0 +1,51 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: lightyellow;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  #jokes-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
